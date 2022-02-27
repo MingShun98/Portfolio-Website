@@ -2,14 +2,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
+h1, h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: ;
-}
-
-
-.container-fluid {
-    padding: 1% 0;
 }
 
 .header {
@@ -17,15 +11,108 @@ h1 {
 }
 
 .header h1 {
-    font-size: 4.5rem;
+    font-size: 4vw;
     font-weight: 700;
 }
 
-#homepage {
-    padding: 20% 0;
+.header h3 {
+    font-size: 2vw;
+}
 
+.header-background {
+    padding: 19% 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: url('../images/skyline.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* padding: 19% 0;
     background-image: url("../images/skyline.jpg");
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+}
+
+.aboutme {
+    padding: 2% 0 5% 10%;
+    position: relative
+}
+
+.aboutme h2 {
+    font-size: 3vw;
+    font-weight: 500;
+    padding: 0 0 5%;
+}
+
+.aboutme-pic {
+    padding-top: 0%;
+    position: absolute;
+    height: 70%;
+    padding-left: 5%;
+
+}
+
+@media (max-width: 1028px) {
+    .aboutme-pic {
+        position: static;
+    }
+}
+
+
+.aboutme-para {
+    text-align: left;
+}
+
+/* Skills Page */
+
+.skills {
+    background-color: #7fbbda;
+    color: white;
+    padding: 5%;
+
+}
+
+.skills h2 {
+    font-size: 2.5vw;
+    font-weight: 400;
+    text-align: center;
+}
+
+.skills-image {
+    padding: 10% 0;
+}
+
+.music {
+    color: #ffffff;
+    display: table;
+    height: 400px;
+    width: 100%;
+    background: url(../images/lofi\ image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.music a{
+    color: grey;
+    font-size: 5vw;
+    text-decoration: none;
+    text-align: center;
+    padding: 
+}
+
+
+.music a :hover{
+    color:#7fbbda;
+}
+
+.music-container{
+    padding: 10% ;
+}
+
 
 }
