@@ -19,7 +19,7 @@
   <!-- CSS Stylesheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="CSS/styles.css" />
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/c573e9f434.js" crossorigin="anonymous"></script>
@@ -95,14 +95,14 @@
       <div class="header">
         <h3>Hi, my name is MingShun</h3>
         <h1>Software Student</h1>
-        <h3>Welcome to my projects website</h3>
+        <h3>Welcome to my website</h3>
       </div>
     </div>
   </section>
 
   <!-- About me -->
   <section id="about-me">
-    <div class="container-fluid">
+    <div class="container-fluid position-relative">
       <div class="row">
         <div class="col-lg-6 text-center">
           <h2>About me</h2>
@@ -126,17 +126,30 @@
 
   <!-- Skills-->
   <section id="skills">
-
-    <div class="container-fluid  ">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-2 text-center">
+        <div class="col">
+          <h2 class="skills-header">What I can do</h2>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+    <div class="container is-narrow">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
           <div class="wrapper">
             <div class="card front-face">
-              <img src="images/skills/html.png">
+              <img src="images/skills/html.png" alt="html-pic">
+              <!-- <div class="info">
+                <div class="title">
+                  HTML
+                </div>
+                <p>HTML</p>
+              </div> -->
             </div>
             <div class="card back-face">
-              <img
-                src="images/skills/html.png">
+              <!-- <img src="images/skills/html.png" alt="html-pic"> -->
               <div class="info">
                 <div class="title">
                   HTML
@@ -146,125 +159,108 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 text-center skills-overlay">
-          <img class="skills-image" src="images/skills/CSS.png" alt="css-pic">
-          <div class="skills-text">
-            <h4>CSS</h4>
-            <h4>BootStrap</h4>
-            <div class="wrapper">
-              <div class="card front-face">
-                <img
-                  src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-              </div>
-              <div class="card back-face">
-                <img
-                  src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-                <div class="info">
-                  <div class="title">
-                    CodingLab</div>
-                  <p>
-                    User interface designer and <br>front-end developer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 text-center skills-overlay">
-          <img class="skills-image" src="images/skills/js.png" alt="js-pic">
-          <div class="skills-text">
-            <h4>JavsScript</h4>
-            <h4>Basic React.JS</h4>
-            <h4>Basic React Native</h4>
-            <div class="wrapper">
-              <div class="card front-face">
-                <img
-                  src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-              </div>
-              <div class="card back-face">
-                <img
-                  src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-                <div class="info">
-                  <div class="title">
-                    CodingLab</div>
-                  <p>
-                    User interface designer and <br>front-end developer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 text-center skills-overlay">
-          <img class="skills-image" src="images/skills/java.png" alt="java-pic">
-          <div class="skills-text">
-            <h4>Java</h4>
-            <h4>JavaBase Data Connectivity</h4>
-            <h4>Spring Framework</h4>
-            <h4>Hibernate Framework</h4>
-            <h4>Apache Struts Framework</h4>
-            <div class="wrapper">
-              <div class="card front-face">
-                <img
-                  src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-              </div>
-              <div class="card back-face">
-                <img
-                  src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-                <div class="info">
-                  <div class="title">
-                    CodingLab</div>
-                  <p>
-                    User interface designer and <br>front-end developer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 text-center skills-overlay">
-          <img class="skills-image" src="images/skills/c++.png" alt="c++-pic">
-          <div class="skills-text">
-            <h4>C++</h4>
-            <h4>Data Structures and Algorithms</h4>
-            <div class="wrapper">
-              <div class="card front-face">
-                <img
-                  src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-              </div>
-              <div class="card back-face">
-                <img
-                  src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-                <div class="info">
-                  <div class="title">
-                    CodingLab</div>
-                  <p>
-                    User interface designer and <br>front-end developer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2 text-center skills-overlay">
-          <img class="skills-image" src="images/skills/C.png" alt="c-pic">
-          <div class="skills-text">
-            <h4>C</h4>
-            <h4>Adruino Uno Hardware Programming</h4>
-            <h4>Raspberry Pi Hardware Programming</h4>
-            <h4>Verilog Hardware Programming</h4>
-
-          </div>
+        <div class="col d-flex justify-content-center">
           <div class="wrapper">
             <div class="card front-face">
-              <img
-                src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+              <img src="images/skills/CSS.png" alt="css-pic">
             </div>
             <div class="card back-face">
-              <img
-                src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+              <img src="images/skills/CSS.png" alt="css-pic">
               <div class="info">
                 <div class="title">
-                  CodingLab</div>
-                <p>
-                  User interface designer and <br>front-end developer</p>
+                  HTML
+                  BootStrap
+                </div>
+                <p>HTML</p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <div class="wrapper">
+            <div class="card front-face">
+              <img src="images/skills/js.png" alt="javascript-pic">
+            </div>
+            <div class="card back-face">
+              <img src="images/skills/js.png" alt="javascript-pic">
+              <div class="info">
+                <div class="title">
+                  JavsScript
+                  Basic React.JS
+                  Basic React Native
+                </div>
+                <p>HTML</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <div class="wrapper">
+            <div class="card front-face">
+              <img src="images/skills/java.png" alt="java-pic">
+            </div>
+            <div class="card back-face">
+              <img src="images/skills/java.png" alt="java-pic">
+              <div class="info">
+                <div class="title">
+                  Java
+                  JavaBase Data Connectivity
+                  Spring Framework
+                  Hibernate Framework
+                  Apache Struts Framework
+                </div>
+                <p>HTML</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <div class="wrapper">
+            <div class="card front-face">
+              <img src="images/skills/c++.png" alt="c++-pic">
+            </div>
+            <div class="card back-face">
+              <img src="images/skills/c++.png" alt="c++-pic">
+              <div class="info">
+                <div class="title">
+                  C++
+                  Data Structures and Algorithms
+                </div>
+                <p>HTML</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <div class="wrapper">
+            <div class="card front-face">
+              <img src="images/skills/C.png" alt="c-pic">
+              <div class="title">
+                C Programming
+              </div>
+            </div>
+            <div class="card back-face">
+              <!-- <img src="images/skills/C.png" alt="c-pic"> -->
+              <div class="card-details">
+                <ul>
+                  <li>C</li>
+                  <li>JS/CSS Preprocessors</li>
+                  <li>Adruino Uno Hardware Programming</li>
+                  <li>Raspberry Pi Hardware Programming</li>
+                  <li>Verilog Hardware Programming</li>
+                </ul>
+              </div>
+              <!-- <div class="info">
+                <div class="title">
+                  C
+                  Adruino Uno Hardware Programming
+                  Raspberry Pi Hardware Programming
+                  Verilog Hardware Programming
+                </div>
+                <p>HTML</p>
+              </div> -->
             </div>
           </div>
         </div>
@@ -272,8 +268,7 @@
     </div>
 
 
-    </div>
-    </div>
+
     <!-- <a class="hyperlink-style-skills" href="docs/Kwek_Ming_Shun_Resume.pdf" download="Kwek_Ming_Shun_Resume">
       <h1 class="skills-overlay-text-format">My Skills / Resume</h1>
     </a> -->
@@ -298,7 +293,7 @@
         <img class="img-projects" src="images/projects/HealthVaultLogo.png">
         <img class="img-projects" src="images/projects/CG2271Robot.jpeg">
         <img class="img-projects" src="images/projects/Smartracklogo.jpg">
-        <img class="img-projects" src="images/projects/AlexBot.JPG">
+        <img class="img-projects" src="images/projects/AlexBot.jpg">
         <img class="img-projects" src="images/projects/Duke.jpg">
       </div>
     </div>
